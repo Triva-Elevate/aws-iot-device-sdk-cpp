@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.2 FATAL_ERROR)
 project(aws-iot-sdk-cpp CXX)
 option(BUILD_SHARED_LIBRARY "Build the library as a shared object, will build it as a static library otherwise." OFF)
-option(BUILD_CLI "Build the cli." OFF)
-option(BUILD_SAMPLES "Build the samples." OFF)
-option(BUILD_TESTS "Build the tests." OFF)
+option(BUILD_CLI "Build the cli." ON)
+option(BUILD_SAMPLES "Build the samples." ON)
+option(BUILD_TESTS "Build the tests." ON)
 option(BUILD_DOCS "Create HTML based API documentation (requires Doxygen)." OFF)
 
 ######################################
