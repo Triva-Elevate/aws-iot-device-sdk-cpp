@@ -56,7 +56,6 @@ find_package(Threads REQUIRED)
 target_link_libraries(${UNIT_TEST_TARGET_NAME} "Threads::Threads")
 
 # Configure CURL library
-set(CURL_LIBRARY "-lcurl")
 find_package(CURL REQUIRED)
 target_link_libraries(${UNIT_TEST_TARGET_NAME} ${CURL_LIBRARIES})
 

@@ -47,7 +47,6 @@ target_include_directories(${JOBS_AGENT_TARGET_NAME} PUBLIC ${PROJECT_SOURCE_DIR
 find_package(Threads REQUIRED)
 
 # Configure CURL library
-set(CURL_LIBRARY "-lcurl")
 find_package(CURL REQUIRED)
 
 # Add SDK includes
